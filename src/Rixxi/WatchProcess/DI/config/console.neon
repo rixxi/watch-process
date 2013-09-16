@@ -1,0 +1,5 @@
+services:
+	watch:
+		class: Rixxi\WatchProcess\Commands\WatchCommand
+		tags: [kdyby.console.command]
+		autowired: no

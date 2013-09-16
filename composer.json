@@ -1,0 +1,25 @@
+{
+    "name": "rixxi/watch-process",
+    "license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "authors": [
+        {
+            "name": "Michal Gebauer",
+            "homepage": "http://mishak.net"
+        }
+    ],
+    "support": {
+        "email": "mishak+watch-process@mishak.net",
+        "issues": "https://github.com/rixxi/watch-process"
+    },
+    "require": {
+        "nette/nette": "@dev",
+        "rixxi/modular": "@dev",
+        "kdyby/console": "@dev",
+        "kdyby/doctrine": "@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rixxi\\WatchProcess\\": "src/"
+        }
+    }
+}
