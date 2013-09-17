@@ -37,7 +37,7 @@ EOT
 	protected function initialize(InputInterface $input, OutputInterface $output)
 	{
 		parent::initialize($input, $output);
-		$this->model = $this->getHelper('container')->getByType('Rixxi\Process\Model');
+		$this->model = $this->getHelper('container')->getByType('Rixxi\WatchProcess\Model');
 	}
 
 
